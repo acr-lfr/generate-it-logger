@@ -1,23 +1,23 @@
 {
-  "name": "openapi-nodegen-logger",
-  "version": "1.0.1",
-  "description": "openapi-nodegen-logger",
+  "name": "generate-it-logger",
+  "version": "1.1.0",
+  "description": "generate-it-logger",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/acrontum/openapi-nodegen-logger.git"
+    "url": "git+https://github.com/acrontum/generate-it-logger.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Acrontum GmbH",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/acrontum/openapi-nodegen-logger/issues"
+    "url": "https://github.com/acrontum/generate-it-logger/issues"
   },
-  "homepage": "https://github.com/acrontum/openapi-nodegen-logger#readme",
+  "homepage": "https://github.com/acrontum/generate-it-logger#readme",
   "dependencies": {
-    "fs-extra": "^8.1.0",
+    "fs-extra": "^9.0.0",
     "winston": "^3.2.1"
   }
 }
