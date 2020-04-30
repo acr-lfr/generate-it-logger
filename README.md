@@ -3,9 +3,9 @@
 This logger uses Winston under the hood. It is a simple one liner installation to convert plain old console logs to formatted loggin based on the apps packag.json file.
 
 ## How to use
-Just include this package before everything else:
+Just include this package once and before everything else:
 ```typescript
-import 'openapi-nodegen-logger';
+import 'generate-it-logger';
 ```
 
 That is it.
