@@ -20,16 +20,10 @@ The package will read your API's package json file and use this data to better f
 
 You can configure this package with env variables (ie a .env file or real env vars).
 
-To use the normal console logger, set either `VERBOSE` or `WTF` to `true`/`TRUE`
+To use the normal console logger, set either `VERBOSE` to `true`/`TRUE`
 
 For example
 
 ```bash
 VERBOSE=TRUE
-```
-
-or
-
-```bash
-WTF=true
 ```

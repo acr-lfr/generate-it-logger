@@ -2,10 +2,7 @@
 
 const trueValues = [true, 'true', 'TRUE'];
 
-if (
-  (process.env.VERBOSE && trueValues.includes(process.env.VERBOSE))
-  || (process.env.WTF && trueValues.includes(process.env.WTF))
-) {
+if (process.env.VERBOSE && trueValues.includes(process.env.VERBOSE)) {
   return;
 }
 
