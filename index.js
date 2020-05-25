@@ -25,14 +25,18 @@ const logger = createLogger({
   transports: [new transports.Console()],
 });
 
+function formatArgs(args){
+  return [util.format.apply(util.format, Array.prototype.slice.call(args))];
+}
+
 // Override the base console log with winston
 console.log = function () {
-  return logger.info.apply(logger, arguments);
+  return logger.info.apply(logger, formatArgs(arguments));
 };
 console.error = function () {
-  return logger.error.apply(logger, arguments);
+  return logger.error.apply(logger, formatArgs(arguments));
 };
 console.info = function () {
-  return logger.warn.apply(logger, arguments);
+  return logger.warn.apply(logger, formatArgs(arguments));
 };
 
