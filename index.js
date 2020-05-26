@@ -22,7 +22,7 @@ function isPrimitive(val) {
 }
 function formatWithInspect(val) {
   const prefix = isPrimitive(val) ? '' : '\n';
-  const shouldFormat = typeof val !== 'string' || !hasAnsi(val);;
+  const shouldFormat = typeof val !== 'string' && !hasAnsi(val);;
 
   return prefix + (shouldFormat ? inspect(val, { depth: null, colors: true }) : val);
 }
