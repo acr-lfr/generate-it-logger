@@ -33,7 +33,7 @@ const generateItFormat = printf((info) => {
   const splatArgs = info[SPLAT] || [];
   const rest = splatArgs.map(data => formatWithInspect(data)).join(' ');
 
-  return `[${info.label}] ${info.timestamp} ${info.level}: ${msg} $${rest}`;
+  return `[${info.label}] ${info.timestamp} ${info.level}: ${msg} ${rest}`;
 });
 
 // Custom logging handler
