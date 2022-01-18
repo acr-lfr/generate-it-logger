@@ -9,7 +9,7 @@ if (process.env.VERBOSE && trueValues.includes(process.env.VERBOSE)) {
 const path = require('path');
 const fs = require('fs-extra');
 const { inspect } = require('util');
-const hasAnsi = require('has-ansi');
+const hasAnsi = import('has-ansi');
 const { createLogger, format, transports } = require('winston');
 const { combine, timestamp, label, printf, colorize } = format;
 const packageJsonPath = path.join(process.cwd(), 'package.json');
