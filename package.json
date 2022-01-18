@@ -18,7 +18,7 @@
   "homepage": "https://github.com/acrontum/generate-it-logger#readme",
   "dependencies": {
     "fs-extra": "^9.0.0",
-    "has-ansi": "^4.0.0",
+    "has-ansi": "^5.0.1",
     "winston": "^3.2.1"
   }
 }
