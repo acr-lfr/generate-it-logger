@@ -1,6 +1,6 @@
 {
   "name": "generate-it-logger",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "description": "generate-it-logger",
   "main": "index.js",
   "scripts": {
