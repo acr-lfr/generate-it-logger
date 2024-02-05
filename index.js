@@ -54,6 +54,9 @@ console.log = function (...args) {
 console.error = function (...args) {
   return logger.error.apply(logger, [...args]);
 };
-console.info = function (...args) {
+console.warn = function (...args) {
   return logger.warn.apply(logger, [...args]);
+};
+console.info = function (...args) {
+  return logger.info.apply(logger, [...args]);
 };
